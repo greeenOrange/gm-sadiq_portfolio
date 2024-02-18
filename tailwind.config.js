@@ -18,7 +18,7 @@ export default {
       'green-100': '#bac964',
       'green-200': '#b2c251',
       'blue-100': '#2c3e50',
-      'text-red-500': 'rgb(239 68 68)',
+      'red-500': '#fcb603',
     },
     extend: {},
   },

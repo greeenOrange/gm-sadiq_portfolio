@@ -4,6 +4,7 @@ import NavBar from "./Partials/NavBar"
 import Services from "./Screens/Services";
 import Contact from "./Screens/Contact";
 import Footer from "./Partials/Footer";
+import About from "./Screens/About";
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
         <Banner scrollY={scrollY}/>
         <main>
           <Services />
+          <About />
           <Contact />
         </main>
         <footer className="bg-black-300 py-10">

@@ -2,7 +2,7 @@ const Contact = () => {
     return (
         <section className="">
             <div className="container mx-auto">
-                <h2 className="text-center text-black font-bold text-3xl md:pt-24 sm:pt-4 pb-20">Services</h2>
+                <h2 className="text-center text-black font-bold text-3xl md:pt-24 sm:pt-4 pb-20">Contact</h2>
                 <div className="flex justify-center gap-8">
                     <div className="w-full md:w-1/2 p-4">
                         <form className="w-full bg-black-100 shadow-md rounded md:px-12 md:pt-16 md:pb-8 mb-4">

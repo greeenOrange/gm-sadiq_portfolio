@@ -17,10 +17,10 @@ const NavBar = ({ scrollY }) => {
             <span className="absolute h-14 w-14 left-0 -top-2"><AiOutlineClose size="30"/></span>}
           </button>
           <div className="flex space-x-4 nav_menus">
-            <a href="#" className={`font-normal ${scrollY ? "text-black-100 hover:text-green-100" : "text-white hover:text-gray-600"}`}>Home</a>
-            <a href="#" className={`font-normal ${scrollY ? "text-black-100 hover:text-green-100" : "text-white hover:text-gray-600"}`}>Services</a>
-            <a href="#" className={`font-normal ${scrollY ? "text-black-100 hover:text-green-100" : "text-white hover:text-gray-600"}`}>About</a>
-            <a href="#" className={`font-normal ${scrollY ? "text-black-100 hover:text-green-100" : "text-white hover:text-gray-600"}`}>Contact</a>
+            <a href="#" className={`font-medium ${scrollY ? "text-black-100 hover:text-green-100 active:border-b-2 hover:border-b-2 transition duration-500 ease-in-out" : "text-white hover:text-gray-600"}`}>Home</a>
+            <a href="#" className={`font-medium ${scrollY ? "text-black-100 hover:text-green-100 active:border-b-2 hover:border-b-2 transition duration-500 ease-in-out" : "text-white hover:text-gray-600"}`}>Services</a>
+            <a href="#" className={`font-medium ${scrollY ? "text-black-100 hover:text-green-100 active:border-b-2 hover:border-b-2 transition duration-500 ease-in-out" : "text-white hover:text-gray-600"}`}>About</a>
+            <a href="#" className={`font-medium ${scrollY ? "text-black-100 hover:text-green-100 active:border-b-2 hover:border-b-2 transition duration-500 ease-in-out" : "text-white hover:text-gray-600"}`}>Contact</a>
           </div>
           {
             mobileMenu && <div className="flex flex-col space-x-4 bg-white mt-10">

@@ -20,4 +20,9 @@ h1, h2, h3, h4, h5, h6 {
     .mobile_menus{
         display: block;
     }
+    .footer_sm{
+        padding: 0 1rem;
+        text-align: center;
+        flex-direction: column;
+    }
 }
