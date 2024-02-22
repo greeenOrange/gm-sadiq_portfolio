@@ -17,17 +17,17 @@ const NavBar = ({ scrollY }) => {
             <span className="absolute h-14 w-14 left-0 -top-2"><AiOutlineClose size="30"/></span>}
           </button>
           <div className="flex space-x-4 nav_menus">
-            <a href="#" className={`font-medium ${scrollY ? "text-black-100 hover:text-green-100 active:border-b-2 hover:border-b-2 transition duration-500 ease-in-out" : "text-white hover:text-gray-600"}`}>Home</a>
-            <a href="#" className={`font-medium ${scrollY ? "text-black-100 hover:text-green-100 active:border-b-2 hover:border-b-2 transition duration-500 ease-in-out" : "text-white hover:text-gray-600"}`}>Services</a>
-            <a href="#" className={`font-medium ${scrollY ? "text-black-100 hover:text-green-100 active:border-b-2 hover:border-b-2 transition duration-500 ease-in-out" : "text-white hover:text-gray-600"}`}>About</a>
-            <a href="#" className={`font-medium ${scrollY ? "text-black-100 hover:text-green-100 active:border-b-2 hover:border-b-2 transition duration-500 ease-in-out" : "text-white hover:text-gray-600"}`}>Contact</a>
+            <a href="#" className={`font-medium ${scrollY ? "text-[#000] hover:text-[#bac964] active:border-b-2 hover:border-b-2 transition duration-500 ease-in-out" : "text-white hover:text-gray-600"}`}>Home</a>
+            <a href="#" className={`font-medium ${scrollY ? "text-[#000] hover:text-[#bac964] active:border-b-2 hover:border-b-2 transition duration-500 ease-in-out" : "text-white hover:text-gray-600"}`}>Services</a>
+            <a href="#" className={`font-medium ${scrollY ? "text-[#000] hover:text-[#bac964] active:border-b-2 hover:border-b-2 transition duration-500 ease-in-out" : "text-white hover:text-gray-600"}`}>About</a>
+            <a href="#" className={`font-medium ${scrollY ? "text-[#000] hover:text-[#bac964] active:border-b-2 hover:border-b-2 transition duration-500 ease-in-out" : "text-white hover:text-gray-600"}`}>Contact</a>
           </div>
           {
             mobileMenu && <div className="flex flex-col space-x-4 bg-white mt-10">
-            <a href="#" className={"text-black-100 ml-4 hover:text-green-100 font-normal" }>Home</a>
-            <a href="#" className={"text-black-100 hover:text-green-100 font-normal" }>Services</a>
-            <a href="#" className={"text-black-100 hover:text-green-100 font-normal" }>About</a>
-            <a href="#" className={"text-black-100 hover:text-green-100 font-normal"}>Contact</a>
+            <a href="#" className={"text-[#000] ml-4 hover:text-[#bac964] font-normal" }>Home</a>
+            <a href="#" className={"text-[#000] hover:text-[#bac964] font-normal" }>Services</a>
+            <a href="#" className={"text-[#000] hover:text-[#bac964] font-normal" }>About</a>
+            <a href="#" className={"text-[#000] hover:text-[#bac964] font-normal"}>Contact</a>
           </div>
           }
         </div>

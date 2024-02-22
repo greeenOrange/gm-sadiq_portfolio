@@ -30,7 +30,7 @@ function App() {
           <About />
           <Contact />
         </main>
-        <footer className="bg-black-300 py-10">
+        <footer className="bg-[#222] py-10">
           <Footer />
         </footer>
       </div>
